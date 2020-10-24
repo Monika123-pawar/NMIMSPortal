@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+#top-heading {
+  background: linear-gradient(to right, rgb(84, 76, 76), 50%, brown);
+}
+#welcomeName {
+  color: white;
+  font-size: 0.8rem;
+}
+#flex-icon-1 {
+  color: brown;
+}
+#flex-icon-2 {
+  color: black;
+}
+#flex-icon-3 {
+  color: green;
+}
+#flex-icon-4 {
+  color: purple;
+}
+#flex-icon-5 {
+  color: rgba(225, 102, 102, 0.486);
+}
+#flex-icon-6 {
+  color: rgb(255, 123, 83);
+}
+#flex-icon-7 {
+  color: rgb(95, 28, 28);
+}
+#flex-icon-8 {
+  color: rgb(62, 84, 141);
+}
+#flex-icon-9 {
+  color: brown;
+}
+
+#flex-icon-1:hover {
+    background: brown;
+    color: white;
+  }
+  #flex-icon-2:hover {
+    background: black;
+    color: white;
+  }
+  #flex-icon-3:hover {
+    background: green;
+    color: white;
+  }
+  #flex-icon-4:hover {
+    background: purple;
+    color: white;
+  }
+  #flex-icon-5 :hover{
+    background: rgba(225, 102, 102, 0.486);
+    color: white;
+  }
+  #flex-icon-6:hover {
+    background: rgb(255, 123, 83);
+    color: white;
+  }
+  #flex-icon-7:hover {
+    background: rgb(95, 28, 28);
+    color: white;
+  }
+  #flex-icon-8:hover{
+    background: rgb(62, 84, 141);
+    color: white;
+  }
+  #flex-icon-9:hover {
+    background: brown;
+    color: white;
+  }
+  #content-long-header{
+    background: green;
+    border-bottom-left-radius:5px ;
+  } 
+  
