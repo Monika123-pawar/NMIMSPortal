@@ -91,6 +91,18 @@ body {
   }
   #content-long-header{
     background: green;
-    border-bottom-left-radius:5px ;
+    border-bottom-left-radius:30px ;
+    border-top-right-radius: 30px;
+    margin:1rem;
+    padding: 0.28rem;
+    color: white;
   } 
-  
+  #dashboard-icons{
+    background: rgb(255, 255, 255);
+    color:rgb(68, 62, 62) ;
+    text-align: center;
+  }
+  #dashboard-icons-text{
+    background: rgb(68, 62, 62);
+    color: white;
+  }
