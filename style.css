@@ -10,6 +10,8 @@ body {
 }
 #top-heading {
   background: linear-gradient(to right, rgb(84, 76, 76), 50%, brown);
+  display: flex;
+  justify-content: flex-start;
 }
 #welcomeName {
   color: white;
@@ -101,8 +103,39 @@ body {
     background: rgb(255, 255, 255);
     color:rgb(68, 62, 62) ;
     text-align: center;
+    width: 200px;
   }
   #dashboard-icons-text{
     background: rgb(68, 62, 62);
     color: white;
+  }
+ #ColumnChart{
+  width: 360px; height: 300px;
+ }
+ #Areachart{
+  width: 360px; height: 300px;
+ }
+  @media only screen and (max-width: 600px) {
+  #ColumnChart{
+    width: 300px;
+  
+  }
+  #Areachart{
+    width: 300px;
+   background-color: aqua;
+  }
+  #content-long-header-tab{
+    font-size: x-small;
+  }
+  #welcomeName{
+    display: block;
+ 
+  }
+  #social-media{
+   
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+
   }
